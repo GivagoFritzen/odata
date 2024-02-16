@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "senha@123"
+    ports:
+      - "1433:1433"
+    volumes:
+      - E:\Base\OData:/var/opt/mssql/dat

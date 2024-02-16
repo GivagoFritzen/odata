@@ -1,0 +1,56 @@
+# .NET and Visual Studio specific files/directories
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+*.vscode/
+*.vssettings
+*.vssscc
+*.vsmdi
+*.csproj.user
+*.pidb
+*.ide
+*.resharper
+*.resharper.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio Code specific files/directories
+.vscode/
+*.sln.ide
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.ide
+*.suo
+*.ntvs*
+*.njsproj
+
+# Rider specific files/directories
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
