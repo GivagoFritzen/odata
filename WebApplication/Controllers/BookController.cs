@@ -26,6 +26,7 @@ namespace WebApplication.Controllers
         public async Task Post(CreateBookCommand book)
         {
             await _dbContext.Books.AddAsync(mapper.Convert(book));
+            await _dbContext.SaveChangesAsync();
             return;
         }
 

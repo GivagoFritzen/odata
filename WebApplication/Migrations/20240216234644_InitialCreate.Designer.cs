@@ -12,7 +12,7 @@ using WebApplication.Infra;
 namespace WebApplication.Migrations
 {
     [DbContext(typeof(BookContext))]
-    [Migration("20240216202536_InitialCreate")]
+    [Migration("20240216234644_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
