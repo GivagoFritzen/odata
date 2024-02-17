@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using Microsoft.EntityFrameworkCore;
 using WebApplication.Contract;
 using WebApplication.Entity;
@@ -31,6 +32,7 @@ namespace WebApplication.Controllers
         }
 
         [HttpGet]
+        [EnableQuery]
         public async Task<IEnumerable<Book>> Get()
         {
             return await _dbContext.Books.ToListAsync();
